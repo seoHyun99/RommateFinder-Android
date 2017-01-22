@@ -11,5 +11,5 @@
 
 | 채팅 서비스 |
 | --- |
-[![rommate_finder_2.gif](rommate_finder_2.gif) |
+[ [rommate_finder_2.gif](rommate_finder_2.gif) |
 

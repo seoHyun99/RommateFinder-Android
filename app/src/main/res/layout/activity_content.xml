@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    tools:context="guilhermeborgesbastos.com.br.tindercardslide.ContentActivity"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/activity_content"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            custom:auto_cycle="true"
+            custom:indicator_visibility="visible"
+            android:layout_height="300dp"/>
+
+       <!-- <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />-->
+
+
+
+
+
+            <LinearLayout
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:paddingTop="25dp"
+                    android:textSize="20sp"
+                    android:text="전지현, 36세"
+                    android:textColor="#4b4b4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"/>
+
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    android:paddingTop="5dp"
+                    android:textSize="16sp"
+                    android:text="초등학교 교사"
+                    android:textColor="#4b4b4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="16dp"/>
+                <View
+                    android:background="#d2d2d2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:paddingTop="20dp"
+                    android:textSize="16sp"
+                    android:text="초등학교교사\n
+                                서대문구 대현동 85-1\n
+                                    보증금 없음 월 30\n
+                                    초등학교 교사라 저녁에 주로 집에있고 독서를 좋아해서
+                                     조용하신 분이 오셨으면좋겠습니다!\n\n\n\n\n\n\n\n\n"
+                    android:textColor="#4b4b4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="16dp"/>
+                <View
+                    android:background="#d2d2d2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/fl_nope"
+        android:background="@drawable/button_nope"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:elevation="4dp" />
+
+    <FrameLayout
+        android:id="@+id/fl_star"
+        android:background="@drawable/star"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="15dp"
+        android:elevation="4dp" />
+
+
+    <FrameLayout
+        android:id="@+id/fl_like"
+        android:background="@drawable/checked"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:elevation="4dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:id="@+id/toolbar"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="?attr/actionBarSize"
+                                       android:layout_alignParentTop="true"
+                                       android:layout_marginBottom="10dp"
+                                       android:background="?attr/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="성향 테스트"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/test_explainImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:elevation="8dp"/>
+
+    <Button
+        android:id="@+id/blueBtn"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/test_explainImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#c4e6ff"
+        android:text="청소를 바로바로 하는 편!"/>
+
+    <Button
+        android:id="@+id/redBtn"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/blueBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ffcef0"
+        android:text="청소를 몰아서 하는 편!"/>
+
+
+</RelativeLayout>

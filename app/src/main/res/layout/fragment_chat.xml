@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:weightSum="4"
+              tools:context="guilhermeborgesbastos.com.br.tindercardslide.ChatFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:text="매칭 목록"
+        android:textColor="#ff0000"
+        android:textSize="14sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_matching_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="18dp"
+        android:background="#d2d2d2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="메시지"
+        android:textColor="#ff0000"
+        android:textSize="14sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_message_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="3"/>
+
+</LinearLayout>

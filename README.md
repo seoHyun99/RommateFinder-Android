@@ -7,9 +7,9 @@
  
 | 성향 테스트 | 
 | --- | 
-| ![rommate_finder_1.gif)  | 
+| ![rommate_finder_1.gif](rommate_finder_1.gif)  | 
 
 | 채팅 서비스 |
 | --- |
-[![rommate_finder_2.gif) |
+[![rommate_finder_2.gif](rommate_finder_2.gif) |
 
